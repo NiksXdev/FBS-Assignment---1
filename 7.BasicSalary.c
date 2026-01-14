@@ -1,8 +1,6 @@
 #include<stdio.h>
 int main() {
-    float total,basic,ta,da,hra;
-    printf("Enter Basic Salary :");
-    scanf("%f",&basic);
+    float total,basic=15000,ta,da,hra;
     if(basic>0) {
         if(basic<=5000){
             ta=basic*10/100;

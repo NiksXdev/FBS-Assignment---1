@@ -1,8 +1,6 @@
 #include<stdio.h>
 int main() {
-    int num,temp,rev=0,rem=0;
-    printf("Enter a number :");
-    scanf("%d",&num);
+    int num=121,temp,rev=0,rem=0;
     temp=num;
     if(num>0) {
         while (num!=0) {
